@@ -528,6 +528,10 @@ nav .navbar-toggle {
 	}
 }
 
+#services .slick-dots li{
+	margin: 0 3px;
+}
+
 #services .slick-active img {
 	opacity:1!important;
 }
