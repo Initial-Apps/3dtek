@@ -408,7 +408,6 @@ nav .navbar-toggle {
 }
 
 
-
 /* Capabilities Section */
 #capabilities {
 	padding: 80px 0;
@@ -594,6 +593,23 @@ nav .navbar-toggle {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+
+/* Facilities Section */
+#facilities {
+	padding: 40px 0 100px;
+	background-color:#EEE;
+}
+
+#facilities h2 {
+	color: #222222;
+}
+
+#facilities h3 {
+	color: #337ab7;
+	margin-bottom:20px;
+}
+
 
 /* Footer Section*/
 footer {
