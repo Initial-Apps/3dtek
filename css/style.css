@@ -285,6 +285,8 @@ nav .navbar-toggle {
 
 #intro {
 	background-color:#EEE;
+	height: 100%;
+	padding: 0;
 }
 
 #intro .intro-body {
@@ -322,10 +324,6 @@ nav .navbar-toggle {
 }
 
 @media(min-width:768px) {
-	#intro {
-		height: 100%;
-		padding: 0;
-	}
 	#intro .intro-body .intro-text {
 		font-size: 18px;
 		letter-spacing: 1px;
@@ -334,9 +332,6 @@ nav .navbar-toggle {
 	}
 }
 @media(max-width:768px) {
-	#intro {
-		padding: 0;
-	}
 	#intro .intro-body {
 		display: table-cell;
 		vertical-align: middle;
@@ -382,7 +377,7 @@ nav .navbar-toggle {
 
 /* About Section */
 #about {
-	padding: 40px 0 100px;
+	padding: 80px 0 100px;
 	background-color:#EEE;
 }
 
