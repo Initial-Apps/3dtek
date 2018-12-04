@@ -1,4 +1,3 @@
-
 body, html {
 	font-family: 'Montserrat', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -286,7 +285,6 @@ nav .navbar-toggle {
 
 #intro {
 	background-color:#EEE;
-	height: 100%;
 	padding: 0;
 }
 
