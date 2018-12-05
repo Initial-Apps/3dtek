@@ -408,6 +408,7 @@ nav .navbar-toggle {
 	padding: 80px 0;
 	opacity: 1;
 	color: #666;
+	overflow: hidden;
 }
 
 #capabilities h2 {
