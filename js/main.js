@@ -125,10 +125,10 @@ function main() {
 
 		$('.gallery-slider-nav').slick({
 			slidesToShow: 5,
-			slidesToScroll: 1,
+			slidesToScroll: 5,
 			asNavFor: '.gallery-slider-for',
-			arrows: false,
-			dots: true,
+			arrows: true,
+			dots: false,
 			centerMode: true,
 			focusOnSelect: true,
 			autoplay: true,

@@ -72,6 +72,14 @@ ul, ol {
 }
 
 hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1.5px solid #eaeaea;
+    width: 70%;
+}
+
+.section-title hr {
 	height: 2px;
 	width: 80px;
 	text-align: center;
@@ -480,6 +488,31 @@ nav .navbar-toggle {
 }
 
 
+/* Updates Section */
+#updates {
+	padding: 120px 0;
+	background-color:#FFFFFF;
+}
+
+#updates h2 {
+	color: #222222;
+}
+
+#updates h3 {
+	color: #337ab7;
+	margin-bottom:20px;
+}
+
+#updates img {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#updates li i {
+	color: #337ab7;
+}
+
+
 /* Capabilities Section */
 #capabilities {
 	padding: 80px 0;
@@ -570,6 +603,7 @@ nav .navbar-toggle {
 	padding: 80px 0;
 	opacity: 1;
 	color: #666;
+	background-color:#FFFFFF;
 }
 
 #services h2 {
@@ -651,6 +685,26 @@ nav .navbar-toggle {
     margin-right: 75px;
 }
 
+#services .slick-prev:before, .slick-next:before {
+    opacity: .75;
+    color: #666;
+}
+
+/* Facilities Section */
+#facilities {
+	padding: 40px 0 100px;
+	background-color:#EEEEEE;
+}
+
+#facilities h2 {
+	color: #222222;
+}
+
+#facilities h3 {
+	color: #337ab7;
+	margin-bottom:20px;
+}
+
 /* quote Section*/
 #quote {
 	padding: 50px 0;
@@ -676,23 +730,6 @@ nav .navbar-toggle {
 	text-transform: uppercase;
 	font-weight: bold;
 }
-
-
-/* Facilities Section */
-#facilities {
-	padding: 40px 0 100px;
-	background-color:#EEE;
-}
-
-#facilities h2 {
-	color: #222222;
-}
-
-#facilities h3 {
-	color: #337ab7;
-	margin-bottom:20px;
-}
-
 
 /* Footer Section*/
 footer {
@@ -814,5 +851,3 @@ footer .iso {
 .company-social .social-deviantart a:hover i {background: #adc376;}
 .company-social .social-google a:hover i {background: #961105;}
 .company-social .social-vimeo a:hover i {background: #71c6f3;}
-
-
