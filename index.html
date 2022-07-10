@@ -303,6 +303,7 @@
 					</div>
 					<div class="col-sm-8 text-right">
 						<iframe width="640" height="360" src="https://www.youtube.com/embed/n5hpKijjiKI?autoplay=1&loop=1&playlist=n5hpKijjiKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div id="cmmHexagon443"></div>
 					</div>
 				</div>
 			</div>
@@ -697,6 +698,40 @@
 		<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
 		<script type="text/javascript" src="js/wow.min.js"></script> 
 		<script type="text/javascript" src="js/slick.js"></script> 
+		<script async src="https://www.youtube.com/iframe_api"></script>
+		<script>
+			function onYouTubeIframeAPIReady() {
+				const player = new YT.Player('cmmHexagon443', {
+					videoId: 'n5hpKijjiKI', // YouTube Video ID
+					width: 640,               // Player width (in px)
+					height: 360, 
+					start:0,             // Player height (in px)
+					playerVars: {
+						autoplay: 1,        // Auto-play the video on load
+						controls: 1,        // Show pause/play buttons in player
+						showinfo: 0,        // Hide the video title
+						modestbranding: 1,  // Hide the Youtube Logo
+						loop: 1,            // Run the video in a loop
+						fs: 0,              // Hide the full screen button
+						cc_load_policy: 0, // Hide closed captions
+						iv_load_policy: 3,  // Hide the Video Annotations
+						autohide: 0,     // Hide video controls when playing
+						playlist: 'n5hpKijjiKI'
+					},
+					events: {
+						onReady: function(e) {
+
+
+							e.target.unMute();
+							e.target.setVolume(20);
+							e.target.playVideo();
+
+
+						}
+					}
+				});
+			}
+		</script>
 		
 		<!-- Javascripts
 				================================================== --> 
