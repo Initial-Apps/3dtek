@@ -490,7 +490,13 @@ nav .navbar-toggle {
 
 /* Updates Section */
 #updates {
-	padding: 120px 0;
+	padding: 40px 0 0;
+	background-color:#FFFFFF;
+}
+
+#updates .container{
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color:#FFFFFF;
 }
 
