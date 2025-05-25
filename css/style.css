@@ -262,65 +262,6 @@ nav .navbar-toggle {
 
 
 /* Home Section */
-#intro-1 {
-	display: table;
-	width: 100%;
-	max-height: 560px;
-	height: auto;
-	padding: 0 ;
-	color: #FFFFFF;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/optiv.jpg) no-repeat center left 45%;
-	background-color: #000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-
-#intro-2 {
-	display: table;
-	width: 100%;
-	max-height: 560px;
-	height: auto;
-	padding: 0;
-	color: #FFFFFF;
-	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/5-axis.jpg);
-	background-color: #000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-
-#intro-3 {
-	display: table;
-	width: 100%;
-	max-height: 560px;
-	height: auto;
-	padding: 0;
-	color: #FFFFFF;
-	background:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/edm.jpg) no-repeat center left 45%;;
-	background-color: #000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-
-#intro-4 {
-	display: table;
-	width: 100%;
-	max-height: 560px;
-	height: auto;
-	padding: 0;
-	color: #FFFFFF;
-	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/kitamura-1.jpg);
-	background-color: #000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
 
 #intro {
 	position: relative;
@@ -438,7 +379,7 @@ nav .navbar-toggle {
 /* About Section */
 #about {
 	padding: 80px 0 100px;
-	background-color:#EEE;
+	background-color:#fcfcfc;
 }
 
 #about h2 {
@@ -465,50 +406,6 @@ nav .navbar-toggle {
 	transition:opacity 0.3s ease-out;
 	margin: 0 auto;
 }
-
-
-/* 5-Axis Section */
-#five-axis h1 {
-	color: #FFFFFF;
-	text-align: center;
-	font-weight: bold;
-	font-size: 42px;
-}
-
-#five-axis h3 {
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 36px;
-}
-
-@media(max-width:768px) {
-	#five-axis h1 {
-		font-size: 30px;
-	}
-	#five-axis h3 {
-		font-size: 24px;
-	}
-}
-
-#five-axis .banner {
-	padding: 140px 0px;
-	position: relative;
-	overflow: hidden;
-	background: rgba(0, 0, 0, .5) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQIW2NkYGD4z8DAwMgAI0AMDA4AI3EBBCKrOnQAAAAASUVORK5CYII=');
-}
-
-#five-axis .banner__video {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: auto;
-	min-width: 100%;
-	height: auto;
-	min-height: 100%;
-	transform: translateX(-50%) translateY(-50%);
-	z-index: -1;
-}
-
 
 /* Updates Section */
 #updates {
